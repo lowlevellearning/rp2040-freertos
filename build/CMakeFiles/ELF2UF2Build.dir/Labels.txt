@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/user/rp2040-freertos/build/CMakeFiles/ELF2UF2Build
+/home/user/rp2040-freertos/build/CMakeFiles/ELF2UF2Build.rule
+/home/user/rp2040-freertos/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/user/rp2040-freertos/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

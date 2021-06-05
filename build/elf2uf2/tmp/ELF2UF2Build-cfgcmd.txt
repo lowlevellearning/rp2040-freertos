@@ -1,0 +1,1 @@
+cmd='/snap/cmake/876/bin/cmake;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
