@@ -13,12 +13,25 @@
 #define GPIO_ON     1
 #define GPIO_OFF    0
 
+// Blinks the in-built LED only once. Since there is no for loop, the task gets terminated
+// void GreenLEDTask(void *param)
+// {
+//     gpio_put(LED_PIN, GPIO_ON);
+//     vTaskDelay(1000);
+//     gpio_put(LED_PIN, GPIO_OFF);
+//     vTaskDelay(1000);
+// }
+
+// This version of the task stays alive and keeps blinking
 void GreenLEDTask(void *param)
 {
-    gpio_put(LED_PIN, GPIO_ON);
-    vTaskDelay(1000);
-    gpio_put(LED_PIN, GPIO_OFF);
-    vTaskDelay(1000);
+    for(;;)
+    {
+        gpio_put(LED_PIN, GPIO_ON);
+        vTaskDelay(1000);
+        gpio_put(LED_PIN, GPIO_OFF);
+        vTaskDelay(1000);
+    }
 }
 
 void RedLEDTask(void *param)
